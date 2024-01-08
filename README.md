@@ -17,7 +17,7 @@ Getting Started
 To run this project locally:
 
 1.Clone the repository:
-  git clone https://github.com/your-username/CryptoCipher.git
+  git clone https://github.com/ashishpathak1470/CryptoCipher-Securing-the-Web.git
 
 2.Open the index.html file in a web browser.
 
