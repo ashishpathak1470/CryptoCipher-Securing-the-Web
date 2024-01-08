@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Encryption & Decryption</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Encryption & Decryption</h1>
+  </header>
+
+  <main>
+    <section id="encryptionSection">
+      <h2>Encryption</h2>
+      <label for="encryptInput">Input Text:</label>
+      <textarea id="encryptInput" rows="4" cols="50"></textarea>
+      <br>
+      <label for="encryptKey">Encryption Key:</label>
+      <input type="password" id="encryptKey">
+      <br>
+      <button onclick="encrypt()">Encrypt</button>
+      <br>
+      <label for="encryptedText">Encrypted Text:</label>
+      <textarea id="encryptedText" rows="4" cols="50" readonly></textarea>
+    </section>
+
+    <section id="decryptionSection">
+      <h2>Decryption</h2>
+      <label for="decryptInput">Input Text:</label>
+      <textarea id="decryptInput" rows="4" cols="50"></textarea>
+      <br>
+      <label for="decryptKey">Decryption Key:</label>
+      <input type="password" id="decryptKey">
+      <br>
+      <button onclick="decrypt()">Decrypt</button>
+      <br>
+      <label for="decryptedText">Decrypted Text:</label>
+      <textarea id="decryptedText" rows="4" cols="50" readonly></textarea>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Project for Encryption & Decryption</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

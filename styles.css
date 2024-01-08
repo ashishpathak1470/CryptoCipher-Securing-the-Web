@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1, h2 {
+    margin-top: 0;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  textarea {
+    width: calc(100% - 40px);
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 14px;
+  }
+  
+  input[type="password"],
+  button {
+    padding: 12px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  input[type="password"] {
+    width: calc(100% - 40px);
+  }
+  
+  button {
+    background-color: #1e90ff;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #0066cc;
+  }
+  
+  footer {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #encryptKey {
+  border: 1px solid #1e90ff;
+  border-radius: 5px;
+  padding: 12px;
+  width: calc(100% - 40px);
+  }
+
+  #decryptKey {
+  border: 1px solid #1e90ff;
+  border-radius: 5px;
+  padding: 12px;
+  width: calc(100% - 40px);
+  }
+
+
+#encryptKey,
+#decryptKey {
+  border: 1px solid #1e90ff;
+  border-radius: 5px;
+  padding: 12px;
+  width: calc(100% - 40px);
+  transition: all 0.3s ease; 
+}
+
+#encryptKey:hover,
+#decryptKey:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 0 10px rgba(30, 144, 255, 0.5); 
+}
+
+button {
+  background-color: #1e90ff;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out; 
+}
+
+button:hover {
+  background-color: #0066cc;
+  transform: translateY(-3px); 
+  box-shadow: 0 4px 8px rgba(30, 144, 255, 0.3); 
+}
